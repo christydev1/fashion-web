@@ -1,0 +1,123 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 15vh;
+  align-items: center;
+  padding: 0% 100px;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+
+.headerIcons {
+  display: flex;
+  gap: 30px;
+}
+
+/* ......................................Hero Section................................  */
+
+main{
+  margin:1rem;
+}
+
+.herosection{
+    display: flex;
+    background-color: whitesmoke;
+    height: 85vh;
+}
+
+.heroBg {
+  /* background-image: url("./images/landing.png");
+  background-size: cover;
+  background-position: center; */
+  width: 50%;
+}
+
+.heroBg img {
+  height: 100%;
+  width: 100%;
+}
+
+.heroText {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.heroText h1 {
+  font-size: 60px;
+  font-weight: 700;
+  color: rgb(33,37,41);
+}
+
+.heroText span {
+  font-size: 17px;
+  color: rgb(33,41);
+}
+
+.heroText button {
+  background-color: rgb(57, 58, 64);
+  color: white;
+  padding: 12px 18px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+button:hover{
+  background-color: black;
+}
+/*-------------------discover collections-------------------*/
+.discover{
+  height: 70vh;
+  padding: 40px;
+  padding: top 50px;;
+  background-color: white;
+}
+.discoverh1{
+  border-left: 3px solid red;
+  font-weight: 795;
+  padding-left: 20px;
+  margin-left: 80px;
+  line-height: 28px;
+  color: rgb(33,37,41);
+}
+.collections{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 10px;
+  height: 94vh;
+  margin: 65px;
+  /* padding: 30px;*/
+  margin-top: 50px;
+}
+.one{
+  grid-column: 1/4;
+  grid-row: 1/3;
+  height: 100vh;
+  width: 93%;
+  background-image: image;url(./images/woman.png)
+  background-position: center;
+  background-size contain
+  background-repeat:no repeat
+  background-clor whitesmoke
+}
+
+
